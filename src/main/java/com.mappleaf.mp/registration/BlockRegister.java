@@ -1,5 +1,6 @@
 package com.mappleaf.mp.registration;
 
+import com.mappleaf.mp.block.SolidBlock;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -11,15 +12,18 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockRegister {
 
+    public static Block test_block = new SolidBlock("test_block");
+
+
     @SideOnly(Side.CLIENT)
     public static void registerRender()
     {
-
+        setRender(test_block);
     }
 
     public static void register()
     {
-
+        setRegister(test_block);
     }
 
     private static void setRegister(Block block)

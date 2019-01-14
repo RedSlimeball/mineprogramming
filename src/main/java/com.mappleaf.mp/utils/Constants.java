@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Constants {
     public static final String
-            MODID = "minep",
+            MODID = "mp",
             NAME = "Mineprogramming",
             VERSION = "0.0.1d",
             PROXYSERVER = "com.mappleaf.mp.proxy.ProxyServer",
